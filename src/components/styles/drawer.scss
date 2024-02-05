@@ -1,0 +1,25 @@
+.drawer-component-container {
+    width: 434px;
+    padding: 25px;
+
+    .drawer-close-container {
+        float: right;
+        cursor: pointer;
+
+        .drawer-close-icon {
+            font-size: 1.2rem;
+
+            &:hover {
+                font-size: 1.5rem;
+            }
+        }
+
+        .drawer-close-text {
+            &:hover {
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+    }
+
+}

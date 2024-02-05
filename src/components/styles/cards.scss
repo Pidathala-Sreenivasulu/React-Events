@@ -1,0 +1,29 @@
+.card-component-container {
+    cursor: pointer;
+
+    .card-component-item {
+        margin: 0;
+        list-style: none;
+        border: 1px solid gray;
+        display: block;
+        flex-wrap: wrap;
+        width: 283px;
+        padding: 10px;
+
+        .card-primary-image {
+            height: 200px;
+            width: -webkit-fill-available;
+        }
+
+        .card-hyper-link {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .card-price-location {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
